@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to bottom, #ff9767, #ff6163);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: colorChange 10s infinite alternate;
+}
+
+.form-login {
+    background-color: aliceblue;
+    width: 50%;
+    display: flex;
+    border-radius: 8px;
+}
+
+.form-login .left {
+    padding: 40px 32px;
+    width: 50%;
+    text-align: center;
+}
+
+.form-login .left h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.form-login .left input {
+    display: block;
+    background-color: #EBEBEB;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-login .left a {
+    color: #817e7e;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+}
+
+.form-login .left button {
+    background-color: #FD3D32;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+
+.form-login .right {
+    border-radius: 0 8px 8px 0;
+    padding: 40px 32px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #FD3D32;
+}
+
+.form-login .right h2 {
+    padding-bottom: 40px;
+}
+
+.form-login .right p {
+    padding-bottom: 40px
+}
+
+.form-login .right a {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
